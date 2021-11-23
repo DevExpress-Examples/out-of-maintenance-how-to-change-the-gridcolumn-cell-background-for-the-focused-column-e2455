@@ -1,4 +1,4 @@
-﻿' Developer Express Code Central Example:
+' Developer Express Code Central Example:
 ' How to change the GridColumn cell background for the focused column
 ' 
 ' This sample illustrates how to change the focused column appearance. Create the
@@ -13,20 +13,16 @@
 ' 
 ' You can find sample updates and versions for different programming languages here:
 ' http://www.devexpress.com/example=E2455
-
-Imports System
-Imports System.Collections.Generic
-Imports System.Linq
-Imports System.Text
-Imports DevExpress.Xpo
-Imports System.Windows
 Imports System.ComponentModel
 
 Namespace WpfApplication1
-    Public Class ContactItem
-        Public Property Name() As String
-        Public Property Salary() As Decimal
-        Public Property MyDate() As Date
-    End Class
 
+    Public Class ContactItem
+
+        Public Property Name As String
+
+        Public Property Salary As Decimal
+
+        Public Property MyDate As Date
+    End Class
 End Namespace
