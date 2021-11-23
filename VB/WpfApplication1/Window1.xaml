@@ -10,8 +10,7 @@
     <Grid>
         <dxg:GridControl Margin="12,37,12,25" Name="gridControl1">
             <dxg:GridControl.Resources>
-                <Style x:Key="customCellStyle" TargetType="dxg:LightweightCellEditor"
-                       BasedOn="{StaticResource {dxgt:GridRowThemeKey ResourceKey=LightweightCellStyle}}">
+                <Style x:Key="customCellStyle" TargetType="dxg:LightweightCellEditor">
                     <Style.Triggers>
                         <MultiDataTrigger>
                             <MultiDataTrigger.Conditions>
